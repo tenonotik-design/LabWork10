@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PasswordValidatorLibrary.Tests/PasswordValidatorLibrary.Tests.csproj" />
+  <Project Path="PasswordValidatorLibrary/PasswordValidatorLibrary.csproj" />
+</Solution>

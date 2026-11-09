@@ -19,7 +19,6 @@
 
             bool result = PasswordValidator.Validate(password);
 
-
             Assert.False(result);
         }
 
@@ -31,6 +30,7 @@
             bool result = PasswordValidator.Validate(password);
 
             Assert.False(result);
+
         }
 
         [Fact]

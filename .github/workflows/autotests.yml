@@ -27,7 +27,7 @@ jobs:
       run: dotnet restore 		# Восстановление зависимостей
 
     - name: Build solution		# Построение решения
-      run: dotnet build --no-restore --configuration 
+      run: dotnet build --no-restore --configuration Release
    
     - name: Run tests and generate TRX log  # Запуск тестов
       run: dotnet test --no-build --configuration Release --logger "trx;LogFileName=test_results.trx"
